@@ -1,0 +1,49 @@
+.main-heading {
+    text-align: center;
+}
+.main-map-div {
+    width: 60%;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-map-div iframe {
+    width: 100%;
+    height: 100%;
+}
+.button-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.get-button button
+{
+    padding: 20px;
+    border: none;
+    background: transparent;
+    border: 2px solid black;
+}
+.get-button button:hover
+{
+    background: black;
+    color: #ffffff;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
+.remove-button button
+{
+    padding: 20px;
+    border: none;
+    background: transparent;
+    border: 2px solid black;
+}
+.remove-button button:hover
+{
+    background: black;
+    color: #ffffff;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
